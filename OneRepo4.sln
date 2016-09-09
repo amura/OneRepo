@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRepo4", "OneRepo4\OneRepo4.csproj", "{48485EAC-A9C3-4718-9A6C-138D523687F2}"
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRepo4", "..\OneRepo4\OneRepo4.csproj", "{48485EAC-A9C3-4718-9A6C-138D523687F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRepo4.ConsoleTest", "..\OneRepo4.ConsoleTest\OneRepo4.ConsoleTest.csproj", "{07CD945F-289D-47F3-83D5-D4401158A12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRepoCQRS", "..\OneRepoCQRS\OneRepoCQRS.csproj", "{950553F1-D0C8-4348-8762-8C605775EEC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,14 @@ Global
 		{48485EAC-A9C3-4718-9A6C-138D523687F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48485EAC-A9C3-4718-9A6C-138D523687F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48485EAC-A9C3-4718-9A6C-138D523687F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CD945F-289D-47F3-83D5-D4401158A12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CD945F-289D-47F3-83D5-D4401158A12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CD945F-289D-47F3-83D5-D4401158A12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CD945F-289D-47F3-83D5-D4401158A12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950553F1-D0C8-4348-8762-8C605775EEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950553F1-D0C8-4348-8762-8C605775EEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950553F1-D0C8-4348-8762-8C605775EEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950553F1-D0C8-4348-8762-8C605775EEC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
