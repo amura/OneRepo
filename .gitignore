@@ -245,3 +245,5 @@ Output/
 # CSV and ASC files
 *.csv
 *.asc
+/OneRepo
+/OneRepo4.sln_
